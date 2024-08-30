@@ -1,26 +1,43 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
 from tkinter import *
 from tkinter import ttk
 
-from six.moves import tkinter as tk
+# from six.moves import tkinter as tk
 
-root = tk.Tk()
-root.mainloop()
+# root = tk.Tk()
+# root.mainloop()
+ 1
 
-# def Aplicacion():
+class ClassName(object):
+    def __init__(self,):
+        super(ClassName, self).__init__()
+        self.root = Tk()
+        
+    def quit(self):
+        self.bsalir = ttk.Button
+        (root, text='Salir',command=root.destroy)
 
-#     def __init__(self):
-#         self.root = Tk()
-#         self.raiz.geometry('600x400')
-#         self.binfo.focus_set()
-#         self.root.title('Named Windows')
-#         self.root.mainloop()
 
-# def main():
-#     mi_app = Aplicacion()
-#     return 0
 
-# if __name__ == '__main__':
-#     main()
+def Aplicacion():
+        c
+        # self.root.geometry('600x400')
+        # self.binfo.focus_set()
+        root.title('Named Windows')
+        bsalir = ttk.Button(root, text='Salir',command=root.destroy)
+                         
+        # Coloca el botón 'self.bsalir' a la derecha del 
+        # objeto anterior.
+                                 
+        bsalir.pack(side=RIGHT)
+        root.mainloop()
+
+def main():
+    app = Aplicacion()
+    return 0
+    # pass
+
+
+if __name__ == '__main__':
+   main()
