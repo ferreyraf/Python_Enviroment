@@ -41,8 +41,8 @@ class Aplicacion():
         # Define el widget Button 'self.binfo' que llamará 
         # al metodo 'self.verinfo' cuando sea presionado
         
-        self.binfo = ttk.Button(self.raiz, text='Info', 
-                                command=self.verinfo)
+        # self.binfo = ttk.Button(self.raiz, text='Info', 
+                                # command=self.verinfo)
         
         # Coloca el botón 'self.binfo' debajo y a la izquierda
         # del widget anterior
