@@ -18,7 +18,6 @@ raiz = Tk()
 # ella. 
 
 raiz.geometry('300x200') # anchura x altura
-
 # Asigna un color de fondo a la ventana. Si se omite
 # esta línea el fondo será gris
 
@@ -34,6 +33,7 @@ raiz.title('Aplicación')
 # donde se ubicará el botón
 
 ttk.Button(raiz, text='Salir', command=quit).pack(side=BOTTOM)
+ttk.Button()
 
 # Después de definir la ventana principal y un widget botón
 # la siguiente línea hará que cuando se ejecute el programa
